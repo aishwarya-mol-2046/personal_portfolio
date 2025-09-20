@@ -960,6 +960,13 @@
                     </div>
                 </div>
                 <form class="contact-form" action="https://formsubmit.co/aishwaryamol06@gmail.com" method="POST">
+    <!-- Add these hidden fields -->
+    <input type="hidden" name="_subject" value="New message from your portfolio">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://aishwarya-mol-2046.github.io/personal_portfolio/thank-you.html">
+    <input type="hidden" name="_autoresponse" value="Hi! Thanks for reaching out. I've received your message and will get back to you within 24 hours. - Aishwarya">
+    
     <div class="form-group">
         <label for="name">Your Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -973,14 +980,6 @@
         <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
     </div>
     
-    <!-- Optional: Add these for better functionality -->
-    <!-- Add these hidden fields to your form -->
-<input type="hidden" name="_captcha" value="false"> <!-- Disable CAPTCHA -->
-<input type="hidden" name="_template" value="table"> <!-- Clean formatting -->
-<input type="hidden" name="_subject" value="New message from your portfolio"> <!-- Custom subject -->
-<input type="hidden" name="_autoresponse" value="Thanks for your message! I'll get back to you soon."> <!-- Auto-reply to sender -->
-<input type="hidden" name="_next" value="https://aishwarya-mol-2046.github.io/personal_portfolio/">
-
     <button type="submit" class="submit-btn">Send Message</button>
 </form>
 <div id="success-message" style="display: none; color: green; margin-top: 15px;">
