@@ -4,7 +4,7 @@
 Welcome to my personal portfolio! 🚀  
 This site showcases my projects, skills, and experiences as I grow as a **Web Developer** and an **Engineering student at VIT**.  
 
-🔗 **Live Website:** [View My Portfolio]https://aishwarya-mol-2046.github.io/portfolio/  
+🔗 **Live Website:** [View My Portfolio][https://aishwarya-mol-2046.github.io/portfolio/](https://aishwarya-mol-2046.github.io/personal_portfolio/)  
 
 ---
 
